@@ -1,18 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-//using ApiPostgre.Models;
-
 namespace ApiPostgre.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class TodoItemController : ControllerBase
     {
-        TodoListContext bd;
-        public TodoItemController(TodoListContext context)
+        TodoItemContext bd;
+        public TodoItemController(TodoItemContext context)
         {
             bd = context;
             bd.Database.EnsureCreated();
