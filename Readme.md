@@ -102,7 +102,7 @@ namespace ApiPostgre.Controllers
 
 6. Create a new ApsaraDB RDS instance in Alibaba Cloud
 
-![](images/AlibabaCloudRDS.png)
+![](../images/AlibabaCloudRDS.png)
 ![](images/AlibabaCloudCreateInsance.png)
 ![](images/AlibabaCloudPosgrest.png)
 ![](images/AlibabaCloud20gb.png)
