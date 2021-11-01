@@ -102,26 +102,26 @@ namespace ApiPostgre.Controllers
 
 6. Create a new ApsaraDB RDS instance in Alibaba Cloud
 
-    ![](../ApiPostgre/Images/AlibabaCloudRDS.png)
-![](../ApiPostgre/Images/AlibabaCloudCreateInsance.png)
-![](images/AlibabaCloudPosgrest.png)
-![](images/AlibabaCloud20gb.png)
-![](images/AlibabaCloudpaynow.png)
+    ![](https://mteheran.files.wordpress.com/2021/10/alibabacloudrds.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudcreateinsance.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudposgrest.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloud20gb.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudpaynow.png)
 
-7. After waiting for the creation of the new instance go to ApsaraRDS instance and create a new account for this instance
+1. After waiting for the creation of the new instance go to ApsaraRDS instance and create a new account for this instance
 
-![](images/AlibabaCLoudInstanses.png)
-![](images/AlibabaCloudAccount.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudinstanses.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudaccount.png)
 
 
 8. Now create a new database and assing the account created before
    
-![](images/AlibabaCloudCreateDatabase.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudcreatedatabase.png)
 
 
 9. Finally, you can setup your IP or add 0.0.0.0/0 in the white list in order create an open access to this new database
 
-![](images/AlibabaCloudIPsecurity.png)
+![](https://mteheran.files.wordpress.com/2021/10/alibabacloudipsecurity.png)
 
 10. Now, You can setup the PostgreSQL connetion and the EF service in your API go to (program.cs):
 
