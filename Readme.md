@@ -1,6 +1,6 @@
-#dotnet API + ApsaraDB with postgreSQL
+# dotnet API + ApsaraDB with postgreSQL
 
-###This is a guide to create and API connected to ApsaraDB with postgreSQL
+### This is a guide to create an API connected to ApsaraDB with postgreSQL
 
 1. create the API using the command "dotnet new webapi"
 
