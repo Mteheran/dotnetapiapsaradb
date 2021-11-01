@@ -102,26 +102,26 @@ namespace ApiPostgre.Controllers
 
 6. Create a new ApsaraDB RDS instance in Alibaba Cloud
 
-![](./images/AlibabaCloudRDS.png)
-![](./images/AlibabaCloudCreateInsance.png)
-![](./images/AlibabaCloudPosgrest.png)
-![](./images/AlibabaCloud20gb.png)
-![](./images/AlibabaCloudpaynow.png)
+![](images/AlibabaCloudRDS.png)
+![](images/AlibabaCloudCreateInsance.png)
+![](images/AlibabaCloudPosgrest.png)
+![](images/AlibabaCloud20gb.png)
+![](images/AlibabaCloudpaynow.png)
 
 7. After waiting for the creation of the new instance go to ApsaraRDS instance and create a new account for this instance
 
-![](./images/AlibabaCLoudInstanses.png)
-![](./images/AlibabaCloudAccount.png)
+![](images/AlibabaCLoudInstanses.png)
+![](images/AlibabaCloudAccount.png)
 
 
 8. Now create a new database and assing the account created before
    
-![](./images/AlibabaCloudCreateDatabase.png)
+![](images/AlibabaCloudCreateDatabase.png)
 
 
 9. Finally, you can setup your IP or add 0.0.0.0/0 in the white list in order create an open access to this new database
 
-![](./images/AlibabaCloudIPsecurity.png)
+![](images/AlibabaCloudIPsecurity.png)
 
 10. Now, You can setup the PostgreSQL connetion and the EF service in your API go to (program.cs):
 
